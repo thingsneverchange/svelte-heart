@@ -6,10 +6,10 @@
   </a>
 </div>
 
-A simple SVG icon with an animation on the fly. A simple and cool animation additive to the like buttons on your Svelte app.
+A simple SVG icon that comes with an animation on the fly. Add a cool additive to the like buttons on your Svelte app.
 
 ## How it works
-`Svelte Heart` is just basically an SVG icon with the keyframe animation built in. This works by binding the like value to `bind:value`. It detects the change, and triggers the heart animation when it is `true`.
+`Svelte Heart` is basically an SVG icon component with the keyframe animation built in. This works by binding your `like` variable to `bind:value`. It detects the change, and triggers the heart animation when it changes to `true`.
 
 ## Demo
 <div style="margin-bottom:15px;">
@@ -29,11 +29,11 @@ npm install svelte-heart
 <script>
 import { SvelteHeart } from 'svelte-heart'
 let like = false
-const LikeEvent = () => { //this is where you set up an ajax call.
+const likeEvent = () => { //this is where you set up an ajax call.
 	like = like ? false : true
 }
 </script>
-<button on:click="{LikeEvent}">
+<button on:click="{likeEvent}">
 	Like
 	<SvelteHaert bind:value="{like}"/>
 </button>
@@ -43,15 +43,15 @@ const LikeEvent = () => { //this is where you set up an ajax call.
 
 | Prop                   | Type      | Default         | Description                                                    |
 | ---------------------- | --------- | --------------- | -------------------------------------------------------------- |
-| value | `boolean` | `false` | The component listens to the change of this value. It sets `true` from `false` the animation triggers. |
-| colorLiked | `string` | `"#da3a09"` | The color when the `value` is set to `true`|
-| colorUnliked | `string` | `"#da3a09"` | The color when the `value` is set to `false`|
-| size | `number` | `20` | The size of the heart. This increases the icon size of the heart in the animation |
-| symbol | `"heart" ⎮ "star" ⎮ "thumb"` | `"heart"` | Accepts only three icon types. |
+| value | `boolean` | `false` | The component listens to the change of `value`. When it changes to `true`, the animation triggers. |
+| colorLiked | `string` | `"#da3a09"` | The color when `value` is set to `true`|
+| colorUnliked | `string` | `"#da3a09"` | The color when `value` is set to `false`|
+| size | `number` | `20` | The size of the heart. This increases the size of the `symbol` icon as well as those in the animation. |
+| symbol | `"heart" ⎮ "star" ⎮ "thumb"` | `"heart"` | Accepts only three icon types. (heart, star, thumb) |
 
 ## Caution
 
-There is no event dispathced from this component as its sole purpose is just an icon with an animation.
+There is no event dispatch from this component as its sole purpose is just an icon with an animation.
 
 ## License
 [LIL License](https://github.com/thingsneverchange/svelte-heart/blob/master/License).
