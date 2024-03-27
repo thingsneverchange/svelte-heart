@@ -3,6 +3,7 @@ node_modules
 /build
 /dist
 /.svelte-kit
+.svelte-kit/ambient.d.ts
 /package
 .env
 .env.*
