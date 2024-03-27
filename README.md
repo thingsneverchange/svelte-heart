@@ -14,7 +14,7 @@ A simple SVG icon with an animation on the fly. A simple and cool animation addi
 ## Demo
 | Heart  | Star  | Thumb  |
 | ------- | ------- | ------- |
-| <img src="https://images.themecloset.pictures/github/svelte-heart/preview-heart.gif" alt="Svelte Heart Heart Animation" width="300px">  | <img src="https://images.themecloset.pictures/github/svelte-heart/preview-star.gif" alt="Svelte Heart Heart Animation" width="300px"/> | <img src="https://images.themecloset.pictures/github/svelte-heart/preview-thumb.gif" alt="Svelte Heart Heart Animation" width="300px"> |
+| <img src="https://images.themecloset.pictures/github/svelte-heart/preview-heart.gif" alt="Svelte Heart Heart Animation" width="150px">  | <img src="https://images.themecloset.pictures/github/svelte-heart/preview-star.gif" alt="Svelte Heart Heart Animation" width="150px"/> | <img src="https://images.themecloset.pictures/github/svelte-heart/preview-thumb.gif" alt="Svelte Heart Heart Animation" width="150px"> |
 
 ## Installation
 
