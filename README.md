@@ -34,7 +34,7 @@ const likeEvent = () => { //this is where you set up an ajax call.
 </script>
 <button on:click="{likeEvent}">
 	Like
-	<SvelteHaert bind:value="{like}"/>
+	<SvelteHeart bind:value="{like}"/>
 </button>
 ```
 
