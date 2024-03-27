@@ -1,8 +1,8 @@
 <div align="center" style="text-align:center">
-  <img src="https://images.themecloset.pictures/github/svelte-heart/logo.png" alt="Svelte Heart" width="350" />
+  <img src="https://images.themecloset.pictures/github/svelte-heart/logo.png" alt="Svelte Heart" width="350" /><br>
   <a href="https://npmjs.org/package/svelte-heart">
     <img src="https://badgen.now.sh/npm/v/svelte-heart" alt="version" />
-  </a>
+  </a><br>
 </div>
 
 A simple SVG icon that comes with an animation on the fly. Add a cool additive to the like buttons on your Svelte app.
