@@ -1,6 +1,6 @@
 {
 	"name": "svelte-heart",
-	"version": "1.0.1",
+	"version": "1.0.2",
   "license": {
 		"type": "LIL",
 		"url": "https://github.com/thingsneverchange/svelte-heart/blob/master/License"
@@ -41,5 +41,26 @@
 		"vite": "^5.0.3",
 		"vitest": "^1.2.0"
 	},
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"svelte heart",
+		"svelte like button",
+		"svelte heart animation",
+		"svelte animation"
+	],
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist",
+		"!dist/**/*.test.*",
+		"!dist/**/*.spec.*"
+	],
+	"svelte": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"type": "module"
 }
