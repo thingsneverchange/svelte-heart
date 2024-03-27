@@ -15,7 +15,13 @@ let heartColor : string = value ? colorLiked : colorUnliked
 let SymbolIcon : ComponentType;
 
 const LoadSymbol = async () => {
-  SymbolIcon = (await import(`$lib/icon/${symbol}.svelte`)).default
+  if(symbol == 'star'){
+    SymbolIcon = (await import(`$lib/icon/star.svelte`)).default
+  }else if(symbol == 'thumb'){
+    SymbolIcon = (await import(`$lib/icon/thumb.svelte`)).default
+  }else{
+    SymbolIcon = (await import(`$lib/icon/heart.svelte`)).default // using `$variable` inside dnyamic import fails
+  }
 }
 
 if(! (['star', 'heart', 'thumb']).includes(symbol)) throw new Error("This symbol is not valid.")
