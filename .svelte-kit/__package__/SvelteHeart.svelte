@@ -9,7 +9,13 @@ const dispatch = createEventDispatcher();
 let heartColor = value ? colorLiked : colorUnliked;
 let SymbolIcon;
 const LoadSymbol = async () => {
-  SymbolIcon = (await import(`$lib/icon/${symbol}.svelte`)).default;
+  if (symbol == "star") {
+    SymbolIcon = (await import("./icon/star.svelte")).default;
+  } else if (symbol == "thumb") {
+    SymbolIcon = (await import("./icon/thumb.svelte")).default;
+  } else {
+    SymbolIcon = (await import("./icon/heart.svelte")).default;
+  }
 };
 if (!["star", "heart", "thumb"].includes(symbol))
   throw new Error("This symbol is not valid.");
