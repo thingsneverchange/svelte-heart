@@ -1,6 +1,5 @@
 <div align="center" style="text-align:center">
-  <img src="https://images.themecloset.pictures/github/svelte-heart/logo.png" alt="Svelte Scrollable Arrow" width="350" />
-  <h1>Svelte Heart </h1>
+  <img src="https://images.themecloset.pictures/github/svelte-heart/logo.png" alt="Svelte Heart" width="350" />
   <a href="https://npmjs.org/package/svelte-heart">
     <img src="https://badgen.now.sh/npm/v/svelte-heart" alt="version" />
   </a>
