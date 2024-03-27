@@ -6,5 +6,5 @@ const toggleLike = () => {
 }
 </script>
 <div style="padding:120px;" on:click="{toggleLike}">
-<SvelteHeart symbol="thumb" colorLiked="#4222e5" size="{25}" bind:value="{like}"/>
+ <SvelteHeart symbol="thumb" colorLiked="#4222e5" size="{25}" bind:value="{like}"/>
 </div>
