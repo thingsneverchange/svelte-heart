@@ -12,9 +12,12 @@ A simple SVG icon with an animation on the fly. A simple and cool animation addi
 `Svelte Heart` is just basically an SVG icon with the keyframe animation built in. This works by binding the like value to `bind:value`. It detects the change, and triggers the heart animation when it is `true`.
 
 ## Demo
+<div style="margin-bottom:15px;">
+<img src="https://images.themecloset.pictures/github/svelte-heart/preview-on-page.gif" width="450px"/></div>
+
 | Heart  | Star  | Thumb  |
 | ------- | ------- | ------- |
-| <img src="https://images.themecloset.pictures/github/svelte-heart/preview-heart.gif" alt="Svelte Heart Heart Animation" width="150px">  | <img src="https://images.themecloset.pictures/github/svelte-heart/preview-star.gif" alt="Svelte Heart Heart Animation" width="150px"/> | <img src="https://images.themecloset.pictures/github/svelte-heart/preview-thumb.gif" alt="Svelte Heart Heart Animation" width="150px"> |
+| <div style="border-radius:15px;overflow:hidden"><img src="https://images.themecloset.pictures/github/svelte-heart/preview-heart.gif" alt="Svelte Heart Heart Animation" width="150px"></div>  | <div style="border-radius:15px;overflow:hidden"><img src="https://images.themecloset.pictures/github/svelte-heart/preview-star.gif" alt="Svelte Heart Star Animation" width="150px"></div> | <div style="border-radius:15px;overflow:hidden"><img src="https://images.themecloset.pictures/github/svelte-heart/preview-thumb.gif" alt="Svelte Heart Thumb Animation" width="150px"></div> |
 
 ## Installation
 
