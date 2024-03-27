@@ -45,7 +45,7 @@ const likeEvent = () => { //this is where you set up an ajax call.
 | ---------------------- | --------- | --------------- | -------------------------------------------------------------- |
 | value | `boolean` | `false` | The component listens to the change of `value`. When it changes to `true`, the animation triggers. |
 | colorLiked | `string` | `"#da3a09"` | The color when `value` is set to `true`|
-| colorUnliked | `string` | `"#da3a09"` | The color when `value` is set to `false`|
+| colorUnliked | `string` | `"#222222"` | The color when `value` is set to `false`|
 | size | `number` | `20` | The size of the heart. This increases the size of the `symbol` icon as well as those in the animation. |
 | symbol | `"heart" ⎮ "star" ⎮ "thumb"` | `"heart"` | Accepts only three icon types. (heart, star, thumb) |
 
