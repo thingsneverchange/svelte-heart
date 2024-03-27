@@ -1,7 +1,6 @@
 {
 	"name": "svelte-heart",
-	"version": "1.0.0",
-	"private": true,
+	"version": "1.0.1",
   "license": {
 		"type": "LIL",
 		"url": "https://github.com/thingsneverchange/svelte-heart/blob/master/License"
