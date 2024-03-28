@@ -81,7 +81,7 @@ $: value, heartColor = value ? colorLiked : colorUnliked
   50% { transform: translate(150%, -30%) rotate(-45deg);opacity:1 }
   100% { transform: translate(50%, -250%) rotate(45deg);opacity:0 }
 }
-.heart-animation-4{animation: animation-4 0.5s linear;opacity:0;}
+.heart-animation-5{animation: animation-5 0.5s linear;opacity:0;}
 .svelte-heart{position:relative;cursor:pointer;display:inline-block;}
 .svelte-heart .animation{position:absolute;top:0px;left:0px;}
 </style>
