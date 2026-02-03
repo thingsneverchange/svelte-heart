@@ -23,6 +23,14 @@ A simple SVG icon that comes with an animation on the fly. Add a cool additive t
 ```bash
 npm install svelte-heart
 ```
+
+### Svelte 4
+
+If you're using Svelte 4, install the v1 release line (the current version targets Svelte 5).
+
+```bash
+npm install svelte-heart@^1
+```
 ## Usage
 ```html
 <script>
@@ -32,9 +40,9 @@ const likeEvent = () => { //this is where you set up an ajax call.
 	like = like ? false : true
 }
 </script>
-<button on:click="{likeEvent}">
+<button on:click={likeEvent}>
 	Like
-	<SvelteHeart bind:value="{like}"/>
+	<SvelteHeart bind:value={like} />
 </button>
 ```
 
